@@ -1,0 +1,120 @@
+{
+"issuer": "https://as.keycloak-fapi.org:8443/auth/realms/safra-seguros",
+"authorization_endpoint": "https://as.keycloak-fapi.org:8443/auth/realms/safra-seguros/protocol/openid-connect/auth",
+"token_endpoint": "https://as.keycloak-fapi.org:8443/auth/realms/safra-seguros/protocol/openid-connect/token",
+"introspection_endpoint": "https://as.keycloak-fapi.org:8443/auth/realms/safra-seguros/protocol/openid-connect/token/introspect",
+"userinfo_endpoint": "https://as.keycloak-fapi.org:8443/auth/realms/safra-seguros/protocol/openid-connect/userinfo",
+"jwks_uri": "https://as.keycloak-fapi.org:8443/auth/realms/safra-seguros/protocol/openid-connect/certs",
+"grant_types_supported": [
+"authorization_code",
+"implicit",
+"refresh_token",
+"client_credentials"
+],
+"response_types_supported": [
+"code",
+"code id_token"
+],
+"subject_types_supported": [
+"public"
+],
+"id_token_signing_alg_values_supported": [
+"PS256"
+],
+"id_token_encryption_alg_values_supported": [
+"RSA-OAEP"
+],
+"id_token_encryption_enc_values_supported": [
+"A256GCM"
+],
+"request_object_signing_alg_values_supported": [
+"PS256"
+],
+"request_object_encryption_alg_values_supported": [
+"RSA-OAEP"
+],
+"request_object_encryption_enc_values_supported": [
+"A256GCM"
+],
+"response_modes_supported": [
+"query",
+"fragment",
+"form_post",
+"query.jwt",
+"fragment.jwt",
+"form_post.jwt",
+"jwt"
+],
+"registration_endpoint": "https://as.keycloak-fapi.org:8443/auth/realms/safra-seguros/clients-registrations/openid-connect",
+"token_endpoint_auth_methods_supported": [
+"private_key_jwt"
+],
+"token_endpoint_auth_signing_alg_values_supported": [
+"PS256"
+],
+"introspection_endpoint_auth_methods_supported": [
+"private_key_jwt"
+],
+"introspection_endpoint_auth_signing_alg_values_supported": [
+"PS256"
+],
+"authorization_signing_alg_values_supported": [
+"PS256"
+],
+"authorization_encryption_alg_values_supported": [
+"RSA-OAEP",
+"RSA-OAEP-256",
+"RSA1_5"
+],
+"authorization_encryption_enc_values_supported": [
+"A256GCM",
+"A192GCM",
+"A128GCM",
+"A128CBC-HS256",
+"A192CBC-HS384",
+"A256CBC-HS512"
+],
+"claims_supported": [
+"cpf",
+"cnpj",
+"acr"
+],
+"claim_types_supported": [
+"normal"
+],
+"claims_parameter_supported": true,
+"scopes_supported": [
+"openid",
+"address",
+"web-origins",
+"offline_access",
+"email",
+"roles",
+"phone",
+"microprofile-jwt",
+"profile"
+],
+"request_parameter_supported": true,
+"request_uri_parameter_supported": true,
+"code_challenge_methods_supported": [
+"S256"
+],
+"tls_client_certificate_bound_access_tokens": true,
+"revocation_endpoint": "https://as.keycloak-fapi.org:8443/auth/realms/safra-seguros/protocol/openid-connect/revoke",
+"revocation_endpoint_auth_methods_supported": [
+"private_key_jwt"
+],
+"revocation_endpoint_auth_signing_alg_values_supported": [
+"PS256"
+],
+"mtls_endpoint_aliases": {
+"token_endpoint": "https://as.keycloak-fapi.org:8443/auth/realms/safra-seguros/protocol/openid-connect/token",
+"revocation_endpoint": "https://as.keycloak-fapi.org:8443/auth/realms/safra-seguros/protocol/openid-connect/revoke",
+"introspection_endpoint": "https://as.keycloak-fapi.org:8443/auth/realms/safra-seguros/protocol/openid-connect/token/introspect",
+"registration_endpoint": "https://mtls.keycloak-fapi.org:8443/auth/realms/safra-seguros/clients-registrations/openid-connect",
+"userinfo_endpoint": "https://as.keycloak-fapi.org:8443/auth/realms/safra-seguros/protocol/openid-connect/userinfo"
+},
+"acr_values_supported": [
+"urn:brasil:openinsurance:loa2"
+]
+}
