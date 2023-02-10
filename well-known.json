@@ -45,7 +45,7 @@
 "form_post.jwt",
 "jwt"
 ],
-"registration_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/clients-registrations/openid-connect",
+"registration_endpoint": "https://mtls.keycloak-fapi.org/auth/realms/safra-seguros/clients-registrations/openid-connect",
 "token_endpoint_auth_methods_supported": [
 "private_key_jwt"
 ],
@@ -111,7 +111,7 @@
 "token_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/token",
 "revocation_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/revoke",
 "introspection_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/token/introspect",
-"registration_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/clients-registrations/openid-connect",
+"registration_endpoint": "https://mtls.keycloak-fapi.org/auth/realms/safra-seguros/clients-registrations/openid-connect",
 "userinfo_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/userinfo"
 },
 "acr_values_supported": [
