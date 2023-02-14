@@ -1,10 +1,10 @@
 {
-"issuer": "https://as.keycloak-fapi.org/auth/realms/safra-seguros",
-"authorization_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/auth",
-"token_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/token",
-"introspection_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/token/introspect",
-"userinfo_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/userinfo",
-"jwks_uri": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/certs",
+"issuer": "https://10.5.0.31:8443/auth/realms/safra-seguros",
+"authorization_endpoint": "https://10.5.0.31:8443/auth/realms/safra-seguros/protocol/openid-connect/auth",
+"token_endpoint": "https://10.5.0.31:8443/auth/realms/safra-seguros/protocol/openid-connect/token",
+"introspection_endpoint": "https://10.5.0.31:8443/auth/realms/safra-seguros/protocol/openid-connect/token/introspect",
+"userinfo_endpoint": "https://10.5.0.31:8443/auth/realms/safra-seguros/protocol/openid-connect/userinfo",
+"jwks_uri": "https://10.5.0.31:8443/auth/realms/safra-seguros/protocol/openid-connect/certs",
 "grant_types_supported": [
 "authorization_code",
 "implicit",
@@ -45,7 +45,7 @@
 "form_post.jwt",
 "jwt"
 ],
-"registration_endpoint": "https://mtls.keycloak-fapi.org/auth/realms/safra-seguros/clients-registrations/openid-connect",
+"registration_endpoint": "https://10.5.0.31:8443/auth/realms/safra-seguros/clients-registrations/openid-connect",
 "token_endpoint_auth_methods_supported": [
 "private_key_jwt"
 ],
@@ -100,7 +100,7 @@
 "S256"
 ],
 "tls_client_certificate_bound_access_tokens": true,
-"revocation_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/revoke",
+"revocation_endpoint": "https://10.5.0.31:8443/auth/realms/safra-seguros/protocol/openid-connect/revoke",
 "revocation_endpoint_auth_methods_supported": [
 "private_key_jwt"
 ],
@@ -108,11 +108,11 @@
 "PS256"
 ],
 "mtls_endpoint_aliases": {
-"token_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/token",
-"revocation_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/revoke",
-"introspection_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/token/introspect",
-"registration_endpoint": "https://mtls.keycloak-fapi.org/auth/realms/safra-seguros/clients-registrations/openid-connect",
-"userinfo_endpoint": "https://as.keycloak-fapi.org/auth/realms/safra-seguros/protocol/openid-connect/userinfo"
+"token_endpoint": "https://10.5.0.31:8443/auth/realms/safra-seguros/protocol/openid-connect/token",
+"revocation_endpoint": "https://10.5.0.31:8443/auth/realms/safra-seguros/protocol/openid-connect/revoke",
+"introspection_endpoint": "https://10.5.0.31:8443/auth/realms/safra-seguros/protocol/openid-connect/token/introspect",
+"registration_endpoint": "https://10.5.0.31:8443/auth/realms/safra-seguros/clients-registrations/openid-connect",
+"userinfo_endpoint": "https://10.5.0.31:8443/auth/realms/safra-seguros/protocol/openid-connect/userinfo"
 },
 "acr_values_supported": [
 "urn:brasil:openinsurance:loa2"
